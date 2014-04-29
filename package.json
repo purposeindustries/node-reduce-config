@@ -1,6 +1,6 @@
 {
   "name": "reduce-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reduce complex configuration object into a single one",
   "main": "index.js",
   "scripts": {

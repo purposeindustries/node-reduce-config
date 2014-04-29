@@ -47,4 +47,17 @@ describe('config-reduce', function() {
     reduced.foo.should.equal(6);
     reduced.bar.should.equal(5);
   });
+  it('should handle missing override keys', function() {
+    var reduced = reduce({
+      foo: 1, bar: 2, baz: 3,
+      qux: {
+        corge: {
+          foo: 4
+        }
+      }
+    }, ['foo', 'bar'], [
+      ['qux', 'waldo']
+    ]);
+    reduced.foo.should.equal(1);
+  })
 });
