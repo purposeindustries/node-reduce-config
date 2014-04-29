@@ -1,0 +1,26 @@
+{
+  "name": "reduce-config",
+  "version": "0.0.1",
+  "description": "Reduce complex configuration object into a single one",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r should -R spec test/*.js"
+  },
+  "author": "Purpose Industries <dev@purposeindustries.co>",
+  "contributors": [{
+    "name": "Bence Dányi",
+    "email": "bd@purposeindustries.co"
+  }],
+  "license": "MIT",
+  "devDependencies": {
+    "should": "^3.3.1",
+    "mocha": "^1.18.2"
+  },
+  repository": {
+    "type": "git",
+    "url": "git@github.com:purposeindustries/node-reduce-config.git"
+  },
+  bugs: {
+    "url": https://github.com/purposeindustries/node-reduce-config/issues"
+  }
+}
