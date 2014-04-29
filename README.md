@@ -33,7 +33,7 @@ var config = {
   }
 };
 
-console.log(reduce(config, ['foo', 'bar', baz'], [
+console.log(reduce(config, ['foo', 'bar', 'baz'], [
   ['qux', 'corge'],
   ['waldo', 'fred']
 ]));
